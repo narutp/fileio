@@ -29,11 +29,7 @@ public class ByteCopyTask extends FileCopyTask {
 	 */
 	@Override
 	public void run() {
-		try {
-			FileUtil.copy(in, out);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		FileUtil.copy(in, out);
 	}
 
 	/**

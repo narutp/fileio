@@ -35,11 +35,7 @@ public class ByteArrayCopyTask extends FileCopyTask {
 	 */
 	@Override
 	public void run() {
-		try {
-			FileUtil.copy(in, out, blocksize);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		FileUtil.copy(in, out, blocksize);
 	}
 
 	/**

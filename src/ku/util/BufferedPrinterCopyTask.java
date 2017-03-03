@@ -29,11 +29,7 @@ public class BufferedPrinterCopyTask extends FileCopyTask {
 	 */
 	@Override
 	public void run() {
-		try {
-			FileUtil.bcopy(in, out);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		FileUtil.bcopy(in, out);
 	}
 
 	/**
