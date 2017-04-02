@@ -28,7 +28,8 @@ import stopwatch.TaskTimer;
  * includes files in your project's src/ directory.  
  * It is a standard technique for opening resources.
  * 
- * @author 
+ * @author Narut Poovorakit
+ * @version 02.04.2017
  *
  */
 public class FileCopyTask implements Runnable {
